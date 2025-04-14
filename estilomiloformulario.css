@@ -1,0 +1,50 @@
+body{
+    background-image: url(fondo.jpg);
+    background-size: 100%;
+    font-family: Tahoma;
+    
+}
+#logo{
+    height: 200px;
+    width:  450px;
+    border-radius: 10px;
+    text-align: center; 
+}
+
+#formulario{
+
+    background-color: rgb(231, 186, 231);
+    width:fit-content;
+    height:fit-content;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: -5px 10px 5px 10px violet;
+    display:grid
+    
+}
+h3{
+    background-color: rgb(231, 186, 231);
+    width: fit-content;
+    height: fit-content;
+    margin:20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    padding: 20px;
+    box-shadow: -5px 10px 5px 10px violet;
+}
+
+#botonmilo{
+    height: 100px;
+    width: 100px;
+}
+
+button:hover{
+
+    background-color: magenta;
+}

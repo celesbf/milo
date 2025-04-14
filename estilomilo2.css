@@ -1,0 +1,120 @@
+
+body{
+
+    background-image: url(fondo.jpg);
+    background-size: 100%;
+    font-family: Tahoma;
+}
+
+#logomilo{
+    height: 200px;
+    width:  450px;
+    border-radius: 10px;
+    text-align: center; 
+    border-style: none;
+    display: block;
+    box-shadow: none;
+   
+} 
+
+link:hover{
+    color: rgb(223, 18, 171);
+}
+
+.container{
+    
+  
+    border-width: 6px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    justify-content: space-evenly;
+   
+
+    
+    
+}
+
+img{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: -5px 10px 5px 10px violet;
+    margin: 25px;
+}
+
+#linksBarra{
+    text-align: center;
+    display: grid;
+    background-color: bisque;
+    width: 120px ;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: -5px 10px 5px 10px violet;
+    margin:25px;
+    margin-top: 10px;
+    
+    
+    
+    
+   
+   
+}
+
+
+label{
+
+    text-align: center;
+    display: block;
+    background-color: bisque;
+    width: 120px ;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: -5px 10px 5px 10px violet;
+    margin:25px;
+    margin-top: 10px;
+   
+
+
+}
+
+
+
+button:hover{
+    background-color: blueviolet;
+}
+
+#pie{
+    color: rgb(12, 12, 12);
+    
+    background-color: rgb(231, 186, 231);
+    width:fit-content;
+    height:fit-content;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: -5px 10px 5px 10px violet;
+   
+
+}
+
+#comentarios{
+    color: black;
+
+    background-color: rgb(231, 186, 231);
+    width:fit-content;
+    height:fit-content;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: -5px 10px 5px 10px violet;
+
+}

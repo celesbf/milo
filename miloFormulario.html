@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MILO ROCK</title>
+        <link href="estilomiloformulario.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div id="encabezado"> <img src="logo.jpg" id="logo"></div>
+
+        <div id="formulario">
+    
+            <h3> Completar el formulario </h3>
+            <div id="formulario">
+       
+               Nombre
+               <input placeholder="nombre" >
+               
+               Apellido
+               <input placeholder="apellido">
+               Direccion
+               <input placeholder="direccion">
+               Telefono
+               <input type="tel" placeholder="telefono">
+
+               <p></p>
+               <label><input type="radio" name="envio" value="domicilio">Envio a domicilio </label>
+               <label><input type="radio" name="envio" value="sucursal" >Envio a sucursal  </label> 
+               <p></p> 
+       
+               <label><input type="checkbox" checked> acepto terminos y condiciones </label>
+       
+               <p></p>
+
+               <div>
+                <select id="productos">
+                    Productos
+                    <option> Remera Bowie </option>
+                    <option> Remera Oasis</option>
+                    <option> Remera The Smiths</option>
+                    <option> Remera Blur</option>
+                    <option> Remera Metaliica</option>
+                    <option> Remera Pearl Jam</option>
+                    <option> Remera Ramones</option>
+                    <option> Remera The Strokes</option>
+                </select>
+                <select id="cantidad">
+                    Cantidad
+                    <option>1 </option>
+                    <option>2 </option>
+                    <option>3 </option>
+                    <option>4 </option>
+                    <option>5 </option>
+                    <option>6 </option>
+                    
+                </select>
+                
+                
+            </div>
+            <p></p>
+
+            
+       
+               <button onclick="comprar()"><img src="fondomilo.jpg" id="botonmilo"><br>
+                Comprar
+            </button>
+               <button onclick="volver()">Volver</button>
+
+        </div>
+           </div>
+
+
+    </body>
+
+    <script src="milorock33.js"></script>
+</html>
