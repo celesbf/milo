@@ -8,7 +8,7 @@ function agregarComentario(){
             nuevo.innerHTML = document.getElementById("comentarios").value
         
        
-            let seccionDeComentarios = document.getElementById("comentarios")
+            let seccionDeComentarios = document.getElementById("comentario")
         
             seccionDeComentarios.appendChild(nuevo)
         }
